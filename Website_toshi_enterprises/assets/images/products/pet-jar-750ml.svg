@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bgjr" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fffdf0"/>
+      <stop offset="100%" stop-color="#fdf5e0"/>
+    </linearGradient>
+    <linearGradient id="bodyjr" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0e8b8" stop-opacity="0.7"/>
+      <stop offset="25%" stop-color="#fdf8e0" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#fffdf5" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#f5edcc" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#e8d89a" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="capjr" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#a04000"/>
+    </linearGradient>
+    <filter id="shjr">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgjr)" rx="16"/>
+  <g filter="url(#shjr)">
+    <!-- Wide jar lid -->
+    <rect x="90" y="40" width="120" height="28" rx="8" fill="url(#capjr)"/>
+    <rect x="86" y="64" width="128" height="9" rx="4" fill="#8a3500"/>
+    <!-- Short wide neck -->
+    <rect x="96" y="73" width="108" height="18" rx="4" fill="url(#bodyjr)" stroke="#d4c080" stroke-width="1"/>
+    <!-- Wide jar body -->
+    <rect x="76" y="91" width="148" height="200" rx="10" fill="url(#bodyjr)" stroke="#d4c080" stroke-width="1"/>
+    <!-- Bottom -->
+    <ellipse cx="150" cy="291" rx="74" ry="11" fill="#d8c888" stroke="#d4c080" stroke-width="1"/>
+    <!-- Highlight -->
+    <rect x="83" y="94" width="20" height="190" rx="10" fill="white" opacity="0.35"/>
+    <!-- Label -->
+    <rect x="90" y="135" width="120" height="90" rx="6" fill="#8a3500" opacity="0.88"/>
+    <text x="150" y="160" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="13" font-weight="900" fill="white">TOSHI</text>
+    <text x="150" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="700" fill="#F5A623" letter-spacing="2">ENTERPRISES</text>
+    <line x1="98" y1="181" x2="202" y2="181" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="150" y="197" text-anchor="middle" font-family="Arial,sans-serif" font-size="12" font-weight="bold" fill="white">750 ml</text>
+    <text x="150" y="212" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="rgba(255,255,255,0.75)">Wide Mouth Jar | Food Grade</text>
+    <!-- Horizontal grip lines -->
+    <line x1="77" y1="108" x2="223" y2="108" stroke="rgba(212,192,128,0.5)" stroke-width="1.5"/>
+    <line x1="77" y1="272" x2="223" y2="272" stroke="rgba(212,192,128,0.5)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="348" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#8a3500">750 ml PET Jar</text>
+  <text x="150" y="368" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Food Grade • BPA Free • Wide Mouth</text>
+</svg>

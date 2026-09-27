@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bg5" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f7ff"/>
+      <stop offset="100%" stop-color="#e8f4fd"/>
+    </linearGradient>
+    <linearGradient id="body5" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8dcf0" stop-opacity="0.8"/>
+      <stop offset="25%" stop-color="#ddf0ff" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#f0f8ff" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#d0e8f5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#a0c8e0" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="cap5" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#1a5f8a"/>
+    </linearGradient>
+    <filter id="sh5">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bg5)" rx="16"/>
+  <g filter="url(#sh5)">
+    <!-- Cap -->
+    <rect x="128" y="50" width="44" height="28" rx="6" fill="url(#cap5)"/>
+    <rect x="124" y="74" width="52" height="7" rx="3" fill="#1a5f8a"/>
+    <!-- Neck -->
+    <rect x="132" y="81" width="36" height="22" rx="4" fill="url(#body5)" stroke="#a0c4d8" stroke-width="1"/>
+    <!-- Shoulder -->
+    <path d="M 100 103 Q 132 100 132 112 L 132 115 L 168 115 L 168 112 Q 168 100 200 103" fill="url(#body5)" stroke="#a0c4d8" stroke-width="1"/>
+    <!-- Body (compact 500ml) -->
+    <rect x="100" y="115" width="100" height="158" rx="10" fill="url(#body5)" stroke="#a0c4d8" stroke-width="1"/>
+    <!-- Bottom -->
+    <ellipse cx="150" cy="273" rx="50" ry="9" fill="#c0dcea" stroke="#a0c4d8" stroke-width="1"/>
+    <!-- Highlight -->
+    <rect x="107" y="118" width="16" height="148" rx="8" fill="white" opacity="0.35"/>
+    <!-- Label -->
+    <rect x="112" y="155" width="76" height="82" rx="6" fill="#1A3A6B" opacity="0.88"/>
+    <text x="150" y="179" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="12" font-weight="900" fill="white">TOSHI</text>
+    <text x="150" y="194" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" font-weight="700" fill="#F5A623" letter-spacing="1.5">ENTERPRISES</text>
+    <line x1="119" y1="199" x2="181" y2="199" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="150" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="11" font-weight="bold" fill="white">500 ml</text>
+    <text x="150" y="226" text-anchor="middle" font-family="Arial,sans-serif" font-size="6.5" fill="rgba(255,255,255,0.75)">Food Grade PET | BPA Free</text>
+    <line x1="101" y1="128" x2="199" y2="128" stroke="rgba(160,196,216,0.5)" stroke-width="1.5"/>
+    <line x1="101" y1="258" x2="199" y2="258" stroke="rgba(160,196,216,0.5)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="320" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1A3A6B">500 ml PET Bottle</text>
+  <text x="150" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Food Grade • BPA Free • Custom Label</text>
+</svg>

@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bg2lw" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#fff8f0"/>
+      <stop offset="100%" stop-color="#fdf0e0"/>
+    </linearGradient>
+    <linearGradient id="body2lw" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f0e0c0" stop-opacity="0.5"/>
+      <stop offset="20%" stop-color="#faf0e0" stop-opacity="0.85"/>
+      <stop offset="55%" stop-color="#fff8f0" stop-opacity="0.95"/>
+      <stop offset="82%" stop-color="#f0e4cc" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#e0c898" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="cap2lw" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#e67e22"/>
+      <stop offset="100%" stop-color="#8e4a0a"/>
+    </linearGradient>
+    <filter id="shadow2lw">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bg2lw)" rx="16"/>
+  <g filter="url(#shadow2lw)">
+    <!-- Cap (orange, wider) -->
+    <rect x="110" y="35" width="80" height="32" rx="8" fill="url(#cap2lw)"/>
+    <rect x="106" y="62" width="88" height="8" rx="3" fill="#8e4a0a"/>
+    <!-- Neck (wide) -->
+    <rect x="115" y="70" width="70" height="24" rx="4" fill="url(#body2lw)" stroke="#d0b888" stroke-width="1"/>
+    <!-- Shoulder (very wide) -->
+    <path d="M 55 94 Q 115 88 115 100 L 115 105 L 185 105 L 185 100 Q 185 88 245 94" fill="url(#body2lw)" stroke="#d0b888" stroke-width="1"/>
+    <!-- Main body (very wide, shorter) -->
+    <rect x="53" y="103" width="194" height="168" rx="14" fill="url(#body2lw)" stroke="#d0b888" stroke-width="1.5"/>
+    <!-- Bottom -->
+    <ellipse cx="150" cy="271" rx="97" ry="14" fill="#d8c4a0" stroke="#d0b888" stroke-width="1"/>
+    <!-- Highlight -->
+    <rect x="62" y="108" width="30" height="155" rx="15" fill="white" opacity="0.30"/>
+    <!-- Label -->
+    <rect x="85" y="120" width="130" height="110" rx="8" fill="#8e4a0a" opacity="0.85"/>
+    <text x="150" y="148" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="15" font-weight="900" fill="white">TOSHI</text>
+    <text x="150" y="165" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#F5A623" letter-spacing="2">ENTERPRISES</text>
+    <line x1="93" y1="172" x2="207" y2="172" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="150" y="192" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="white">2 L</text>
+    <text x="150" y="210" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" fill="rgba(255,255,255,0.8)">Wide Body | Food Grade | BPA Free</text>
+    <!-- Ridges -->
+    <line x1="54" y1="145" x2="246" y2="145" stroke="rgba(208,184,136,0.5)" stroke-width="1.5"/>
+    <line x1="54" y1="252" x2="246" y2="252" stroke="rgba(208,184,136,0.5)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#8e4a0a">2 Litre PET Bottle — Wide</text>
+  <text x="150" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Food Grade • BPA Free • Orange Cap</text>
+  <text x="150" y="378" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#6B7280">Ideal for edible oil &amp; storage</text>
+</svg>

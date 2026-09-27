@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bg5l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f7ff"/>
+      <stop offset="100%" stop-color="#e4f0fc"/>
+    </linearGradient>
+    <linearGradient id="body5l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#a8cce8" stop-opacity="0.7"/>
+      <stop offset="22%" stop-color="#d0e8fa" stop-opacity="0.88"/>
+      <stop offset="55%" stop-color="#ecf6ff" stop-opacity="0.95"/>
+      <stop offset="82%" stop-color="#c4dff0" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#90b8d8" stop-opacity="0.75"/>
+    </linearGradient>
+    <linearGradient id="cap5l" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#1a5f8a"/>
+    </linearGradient>
+    <filter id="shadow5l">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="rgba(0,0,0,0.18)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bg5l)" rx="16"/>
+  <g filter="url(#shadow5l)">
+    <!-- Cap (wide) -->
+    <rect x="103" y="22" width="78" height="32" rx="8" fill="url(#cap5l)"/>
+    <rect x="98" y="50" width="88" height="9" rx="4" fill="#1a5f8a"/>
+    <!-- Neck (wide for jug) -->
+    <rect x="108" y="59" width="68" height="25" rx="5" fill="url(#body5l)" stroke="#88b8d8" stroke-width="1.2"/>
+    <!-- Shoulder -->
+    <path d="M 52 84 Q 108 78 108 96 L 108 103 L 176 103 L 176 96 Q 176 78 232 84" fill="url(#body5l)" stroke="#88b8d8" stroke-width="1.2"/>
+    <!-- Main jug body (large, wide) -->
+    <rect x="50" y="101" width="180" height="220" rx="14" fill="url(#body5l)" stroke="#88b8d8" stroke-width="2"/>
+    <!-- Bottom -->
+    <ellipse cx="140" cy="321" rx="90" ry="16" fill="#b0cee4" stroke="#88b8d8" stroke-width="1.5"/>
+    <!-- Handle (right side) -->
+    <path d="M 230 130 Q 272 130 272 185 Q 272 240 230 240" fill="none" stroke="#88b8d8" stroke-width="14" stroke-linecap="round"/>
+    <path d="M 230 130 Q 268 130 268 185 Q 268 240 230 240" fill="none" stroke="url(#body5l)" stroke-width="10" stroke-linecap="round"/>
+    <!-- Highlight -->
+    <rect x="60" y="106" width="32" height="206" rx="16" fill="white" opacity="0.28"/>
+    <!-- Label -->
+    <rect x="68" y="130" width="144" height="115" rx="8" fill="#1A3A6B" opacity="0.88"/>
+    <text x="140" y="157" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="16" font-weight="900" fill="white">TOSHI</text>
+    <text x="140" y="175" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#F5A623" letter-spacing="2">ENTERPRISES</text>
+    <line x1="76" y1="182" x2="204" y2="182" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="140" y="208" text-anchor="middle" font-family="Arial,sans-serif" font-size="28" font-weight="bold" fill="white">5 L</text>
+    <text x="140" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.8)">Water Jug | Food Grade PET | BPA Free</text>
+    <!-- Ridges -->
+    <line x1="51" y1="160" x2="229" y2="160" stroke="rgba(136,184,216,0.5)" stroke-width="1.5"/>
+    <line x1="51" y1="295" x2="229" y2="295" stroke="rgba(136,184,216,0.5)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="358" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1A3A6B">5 Litre Water Jug with Handle</text>
+  <text x="150" y="378" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Food Grade • BPA Free • Ergonomic Handle</text>
+</svg>

@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bgcon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f5ff"/>
+      <stop offset="100%" stop-color="#ebebff"/>
+    </linearGradient>
+    <linearGradient id="bodycon" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c0c8f0" stop-opacity="0.5"/>
+      <stop offset="25%" stop-color="#e0e8ff" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#f5f5ff" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#d0d8f5" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a8b4e0" stop-opacity="0.6"/>
+    </linearGradient>
+    <linearGradient id="lidcon" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5b6abf"/>
+      <stop offset="100%" stop-color="#2d3a8c"/>
+    </linearGradient>
+    <filter id="shadowcon">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgcon)" rx="16"/>
+  <g filter="url(#shadowcon)">
+    <!-- Wide screw cap/lid -->
+    <rect x="85" y="55" width="130" height="30" rx="8" fill="url(#lidcon)"/>
+    <rect x="80" y="80" width="140" height="10" rx="3" fill="#2d3a8c"/>
+    <!-- Neck (wide) -->
+    <rect x="90" y="90" width="120" height="22" rx="4" fill="url(#bodycon)" stroke="#a0a8d8" stroke-width="1"/>
+    <!-- Shoulder (jar-like) -->
+    <path d="M 60 112 Q 90 108 90 118 L 90 122 L 210 122 L 210 118 Q 210 108 240 112" fill="url(#bodycon)" stroke="#a0a8d8" stroke-width="1"/>
+    <!-- Jar body (short, wide) -->
+    <rect x="58" y="120" width="184" height="160" rx="12" fill="url(#bodycon)" stroke="#a0a8d8" stroke-width="1.5"/>
+    <!-- Bottom -->
+    <ellipse cx="150" cy="280" rx="92" ry="14" fill="#c0c8e8" stroke="#a0a8d8" stroke-width="1"/>
+    <!-- Highlight -->
+    <rect x="67" y="124" width="28" height="148" rx="14" fill="white" opacity="0.30"/>
+    <!-- Label -->
+    <rect x="80" y="140" width="140" height="100" rx="8" fill="#2d3a8c" opacity="0.88"/>
+    <text x="150" y="167" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="15" font-weight="900" fill="white">TOSHI</text>
+    <text x="150" y="184" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#F5A623" letter-spacing="2">ENTERPRISES</text>
+    <line x1="88" y1="190" x2="212" y2="190" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="150" y="207" text-anchor="middle" font-family="Arial,sans-serif" font-size="14" font-weight="bold" fill="white">500 ml</text>
+    <text x="150" y="222" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.8)">Airtight Container | Food Grade PET</text>
+    <!-- Clip lid hinges -->
+    <rect x="58" y="128" width="8" height="20" rx="3" fill="#5b6abf"/>
+    <rect x="234" y="128" width="8" height="20" rx="3" fill="#5b6abf"/>
+    <!-- Ridges on body -->
+    <line x1="59" y1="155" x2="241" y2="155" stroke="rgba(160,168,216,0.4)" stroke-width="1.5"/>
+    <line x1="59" y1="262" x2="241" y2="262" stroke="rgba(160,168,216,0.4)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="340" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#2d3a8c">PET Storage Container — 500 ml</text>
+  <text x="150" y="360" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Airtight • Stackable • Food Grade</text>
+  <text x="150" y="378" text-anchor="middle" font-family="Arial,sans-serif" font-size="9" fill="#6B7280">Ideal for kitchen dry goods storage</text>
+</svg>

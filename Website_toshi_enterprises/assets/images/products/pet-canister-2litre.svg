@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bgcn" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f5f0ff"/>
+      <stop offset="100%" stop-color="#ede8fa"/>
+    </linearGradient>
+    <linearGradient id="bodycn" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#c8b8f0" stop-opacity="0.7"/>
+      <stop offset="25%" stop-color="#e8e0ff" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#f5f0ff" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#d8ccf5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#b0a0e0" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="capcn" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#6c3fc0"/>
+      <stop offset="100%" stop-color="#4a2880"/>
+    </linearGradient>
+    <filter id="shcn">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bgcn)" rx="16"/>
+  <g filter="url(#shcn)">
+    <!-- Wide screw cap -->
+    <rect x="95" y="28" width="110" height="32" rx="8" fill="url(#capcn)"/>
+    <rect x="91" y="56" width="118" height="9" rx="4" fill="#4a2880"/>
+    <!-- Neck -->
+    <rect x="103" y="65" width="94" height="20" rx="4" fill="url(#bodycn)" stroke="#b0a0d8" stroke-width="1"/>
+    <!-- Wide canister body -->
+    <rect x="73" y="85" width="154" height="218" rx="8" fill="url(#bodycn)" stroke="#b0a0d8" stroke-width="1"/>
+    <!-- Bottom -->
+    <ellipse cx="150" cy="303" rx="77" ry="11" fill="#c0b0e0" stroke="#b0a0d8" stroke-width="1"/>
+    <!-- Highlight -->
+    <rect x="80" y="88" width="22" height="208" rx="11" fill="white" opacity="0.35"/>
+    <!-- Label -->
+    <rect x="88" y="140" width="124" height="95" rx="6" fill="#4a2880" opacity="0.9"/>
+    <text x="150" y="167" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="14" font-weight="900" fill="white">TOSHI</text>
+    <text x="150" y="183" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" font-weight="700" fill="#F5A623" letter-spacing="2">ENTERPRISES</text>
+    <line x1="96" y1="189" x2="204" y2="189" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="150" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">2 Litre</text>
+    <text x="150" y="221" text-anchor="middle" font-family="Arial,sans-serif" font-size="7" fill="rgba(255,255,255,0.75)">Wide Mouth Canister</text>
+    <!-- Horizontal ridges -->
+    <line x1="74" y1="102" x2="226" y2="102" stroke="rgba(176,160,216,0.5)" stroke-width="1.5"/>
+    <line x1="74" y1="283" x2="226" y2="283" stroke="rgba(176,160,216,0.5)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="355" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#4a2880">2 Litre PET Canister</text>
+  <text x="150" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Food Grade • BPA Free • Wide Screw Cap</text>
+</svg>

@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bg1sq" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0fff4"/>
+      <stop offset="100%" stop-color="#e6f9ee"/>
+    </linearGradient>
+    <linearGradient id="body1sq" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b8ecc8" stop-opacity="0.6"/>
+      <stop offset="25%" stop-color="#ddfaeb" stop-opacity="0.85"/>
+      <stop offset="60%" stop-color="#f0fff6" stop-opacity="0.95"/>
+      <stop offset="85%" stop-color="#c8ecd8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#a0d8b8" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="cap1sq" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#27ae60"/>
+      <stop offset="100%" stop-color="#145a32"/>
+    </linearGradient>
+    <filter id="shadow1sq">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bg1sq)" rx="16"/>
+  <g filter="url(#shadow1sq)">
+    <!-- Cap (green) -->
+    <rect x="122" y="30" width="56" height="33" rx="8" fill="url(#cap1sq)"/>
+    <rect x="118" y="59" width="64" height="8" rx="3" fill="#145a32"/>
+    <!-- Neck -->
+    <rect x="127" y="67" width="46" height="26" rx="4" fill="url(#body1sq)" stroke="#90c8a8" stroke-width="1"/>
+    <!-- Shoulder (squarish transitions) -->
+    <path d="M 82 93 Q 127 88 127 100 L 127 105 L 173 105 L 173 100 Q 173 88 218 93" fill="url(#body1sq)" stroke="#90c8a8" stroke-width="1"/>
+    <!-- Main body — squarish with large corner radius -->
+    <rect x="80" y="103" width="140" height="195" rx="20" fill="url(#body1sq)" stroke="#90c8a8" stroke-width="1.5"/>
+    <!-- Bottom -->
+    <ellipse cx="150" cy="298" rx="70" ry="12" fill="#a8d8b8" stroke="#90c8a8" stroke-width="1"/>
+    <!-- Highlight -->
+    <rect x="90" y="107" width="24" height="183" rx="12" fill="white" opacity="0.30"/>
+    <!-- Label -->
+    <rect x="98" y="150" width="104" height="92" rx="8" fill="#145a32" opacity="0.85"/>
+    <text x="150" y="175" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="14" font-weight="900" fill="white">TOSHI</text>
+    <text x="150" y="191" text-anchor="middle" font-family="Arial,sans-serif" font-size="8" font-weight="700" fill="#F5A623" letter-spacing="2">ENTERPRISES</text>
+    <line x1="106" y1="198" x2="194" y2="198" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="150" y="213" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="white">1 Litre</text>
+    <text x="150" y="228" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.75)">Food Grade PET | BPA Free</text>
+    <!-- Side ridges -->
+    <line x1="81" y1="118" x2="219" y2="118" stroke="rgba(144,200,168,0.5)" stroke-width="1.5"/>
+    <line x1="81" y1="280" x2="219" y2="280" stroke="rgba(144,200,168,0.5)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="355" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#145a32">1 Litre PET Bottle — Squarish</text>
+  <text x="150" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Food Grade • BPA Free • Green Cap</text>
+</svg>

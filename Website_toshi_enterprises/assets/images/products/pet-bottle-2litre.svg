@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 400">
+  <defs>
+    <linearGradient id="bg2l" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f0f7ff"/>
+      <stop offset="100%" stop-color="#e8f4fd"/>
+    </linearGradient>
+    <linearGradient id="body2l" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#b0d8f0" stop-opacity="0.8"/>
+      <stop offset="20%" stop-color="#d8eeff" stop-opacity="0.9"/>
+      <stop offset="55%" stop-color="#f0f8ff" stop-opacity="0.95"/>
+      <stop offset="82%" stop-color="#cce5f5" stop-opacity="0.85"/>
+      <stop offset="100%" stop-color="#98c4e0" stop-opacity="0.8"/>
+    </linearGradient>
+    <linearGradient id="cap2l" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#3498db"/>
+      <stop offset="100%" stop-color="#1a5f8a"/>
+    </linearGradient>
+    <filter id="shadow2l">
+      <feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="rgba(0,0,0,0.15)"/>
+    </filter>
+  </defs>
+  <rect width="300" height="400" fill="url(#bg2l)" rx="16"/>
+  <g filter="url(#shadow2l)">
+    <!-- Cap (wider) -->
+    <rect x="115" y="28" width="70" height="36" rx="8" fill="url(#cap2l)"/>
+    <rect x="110" y="59" width="80" height="8" rx="3" fill="#1a5f8a"/>
+    <!-- Neck -->
+    <rect x="120" y="67" width="60" height="26" rx="4" fill="url(#body2l)" stroke="#98c4d8" stroke-width="1"/>
+    <!-- Shoulder (wider) -->
+    <path d="M 75 93 Q 120 88 120 100 L 120 105 L 180 105 L 180 100 Q 180 88 225 93" fill="url(#body2l)" stroke="#98c4d8" stroke-width="1"/>
+    <!-- Main body (wider) -->
+    <rect x="73" y="103" width="154" height="200" rx="12" fill="url(#body2l)" stroke="#98c4d8" stroke-width="1.5"/>
+    <!-- Grip waist indentation -->
+    <rect x="73" y="178" width="154" height="30" rx="4" fill="rgba(160,200,225,0.3)" stroke="#98c4d8" stroke-width="1"/>
+    <!-- Bottom -->
+    <ellipse cx="150" cy="303" rx="77" ry="12" fill="#b8d8ea" stroke="#98c4d8" stroke-width="1"/>
+    <!-- Highlight -->
+    <rect x="82" y="107" width="26" height="188" rx="13" fill="white" opacity="0.32"/>
+    <!-- Label -->
+    <rect x="92" y="120" width="116" height="50" rx="6" fill="#1A3A6B" opacity="0.88"/>
+    <text x="150" y="142" text-anchor="middle" font-family="Arial Black,sans-serif" font-size="14" font-weight="900" fill="white">TOSHI</text>
+    <text x="150" y="158" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" font-weight="700" fill="#F5A623" letter-spacing="2">ENTERPRISES</text>
+    <!-- Lower label section -->
+    <rect x="92" y="215" width="116" height="70" rx="6" fill="#1A3A6B" opacity="0.85"/>
+    <text x="150" y="240" text-anchor="middle" font-family="Arial,sans-serif" font-size="22" font-weight="bold" fill="white">2 L</text>
+    <line x1="100" y1="248" x2="200" y2="248" stroke="rgba(255,255,255,0.3)" stroke-width="1"/>
+    <text x="150" y="264" text-anchor="middle" font-family="Arial,sans-serif" font-size="7.5" fill="rgba(255,255,255,0.8)">Food Grade PET | BPA Free</text>
+    <!-- Ridges -->
+    <line x1="74" y1="175" x2="226" y2="175" stroke="rgba(152,196,216,0.6)" stroke-width="1.5"/>
+    <line x1="74" y1="211" x2="226" y2="211" stroke="rgba(152,196,216,0.6)" stroke-width="1.5"/>
+  </g>
+  <text x="150" y="355" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="bold" fill="#1A3A6B">2 Litre PET Bottle — Standard</text>
+  <text x="150" y="375" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="#4A5568">Food Grade • BPA Free • Ergonomic Grip</text>
+</svg>
