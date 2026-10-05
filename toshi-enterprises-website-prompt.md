@@ -58,8 +58,8 @@ toshi-enterprises/
 | Tagline | Your Trusted OEM Manufacturing Partner |
 | Industry | Manufacturing & Trading |
 | Address | B-19, Ganga Nagri, Bhadrabad Industrial Area, Haridwar, Uttarakhand – 249403 |
-| Phone | +91 98977 94104 |
-| WhatsApp | +91 98977 94104 |
+| Phone | +91 88990 09910 |
+| WhatsApp | +91 88990 09910 |
 | Email | enterprisestoshi@gmail.com |
 | Service Area | Pan India (B2B supply) |
 
@@ -253,7 +253,7 @@ searchInput.addEventListener("input", () => {
     <div class="card-actions">
       <a href="mailto:enterprisestoshi@gmail.com?subject=Enquiry: Modular Switch 6A"
          class="btn btn-primary">Send Enquiry</a>
-      <a href="https://wa.me/919897794104?text=Hello%2C%20I%20am%20interested%20in%20Modular%20Switch%206A"
+      <a href="https://wa.me/918899009910?text=Hello%2C%20I%20am%20interested%20in%20Modular%20Switch%206A"
          class="btn btn-whatsapp">WhatsApp</a>
     </div>
   </div>
@@ -278,8 +278,8 @@ Show `"Showing 8 of 10 products"` above the grid, updates live with search/filte
 
 ### 1. Home (`index.html`)
 - **Hero**: Full-width banner, headline: *"Your Trusted OEM Manufacturing Partner"*, sub-headline about Haridwar-based manufacturing, two CTAs:
-  - `📞 Call Now` → `tel:+919897794104`
-  - `💬 WhatsApp Enquiry` → `https://wa.me/919897794104?text=Hello%2C%20I%20am%20interested%20in%20your%20products`
+  - `📞 Call Now` → `tel:+918899009910`
+  - `💬 WhatsApp Enquiry` → `https://wa.me/918899009910?text=Hello%2C%20I%20am%20interested%20in%20your%20products`
 - **Trust bar**: "ISI Certified Products", "Pan India Delivery", "OEM & Bulk Orders", "Haridwar Manufacturing"
 - **Product categories strip**: Dynamically loaded from `products.json` — category cards with icon, name, product count, "Browse" link → `products.html?category=[id]`
 - **Featured products**: 4 random products from JSON (2 electrical, 2 PET) with enquiry CTAs
@@ -394,7 +394,7 @@ Accordion Q&A:
 ### Meta tags (customise per page)
 ```html
 <title>Electrical Accessories Manufacturer in Haridwar | Toshi Enterprises</title>
-<meta name="description" content="Toshi Enterprises — OEM manufacturer of Electrical Accessories & PET Household Products in Haridwar, Uttarakhand. Bulk & custom orders. Pan India supply. Call +91 98977 94104">
+<meta name="description" content="Toshi Enterprises — OEM manufacturer of Electrical Accessories & PET Household Products in Haridwar, Uttarakhand. Bulk & custom orders. Pan India supply. Call +91 88990 09910">
 <meta name="keywords" content="electrical accessories manufacturer Haridwar, PET household products supplier India, OEM electrical manufacturer Uttarakhand, bulk electrical accessories, modular switches manufacturer, PET bottle manufacturer Haridwar">
 <meta property="og:title" content="Toshi Enterprises | OEM Electrical & PET Manufacturer, Haridwar">
 <meta property="og:description" content="Your Trusted OEM Manufacturing Partner. Electrical Accessories & PET Household Products. Bulk orders, pan India supply.">
@@ -417,7 +417,7 @@ Accordion Q&A:
     "postalCode": "249403",
     "addressCountry": "IN"
   },
-  "telephone": "+919897794104",
+  "telephone": "+918899009910",
   "email": "enterprisestoshi@gmail.com",
   "areaServed": "India",
   "hasOfferCatalog": {
@@ -449,7 +449,7 @@ Accordion Q&A:
 
 ### Floating WhatsApp button (all pages)
 ```html
-<a href="https://wa.me/919897794104?text=Hello%2C%20I%20am%20interested%20in%20your%20products"
+<a href="https://wa.me/918899009910?text=Hello%2C%20I%20am%20interested%20in%20your%20products"
    class="whatsapp-float" target="_blank" aria-label="Chat on WhatsApp">
   <!-- WhatsApp SVG icon -->
 </a>
@@ -469,8 +469,8 @@ Accordion Q&A:
 ```html
 <!-- Visible only on mobile (max-width: 767px), fixed bottom -->
 <div class="mobile-sticky-cta">
-  <a href="tel:+919897794104" class="sticky-call">📞 Call Now</a>
-  <a href="https://wa.me/919897794104" class="sticky-wa">💬 WhatsApp</a>
+  <a href="tel:+918899009910" class="sticky-call">📞 Call Now</a>
+  <a href="https://wa.me/918899009910" class="sticky-wa">💬 WhatsApp</a>
 </div>
 ```
 

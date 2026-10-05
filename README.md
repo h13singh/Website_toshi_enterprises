@@ -144,7 +144,7 @@ For a **client preview link in under 2 minutes**: use Netlify Drop. Drag the fol
 
 ## Customisation Notes
 
-**Phone / WhatsApp number**: Search & replace `919897794104` across all files if the number changes.
+**Phone / WhatsApp number**: Search & replace `918899009910` across all files if the number changes.
 
 **Email**: Replace `enterprisestoshi@gmail.com` across all files.
 

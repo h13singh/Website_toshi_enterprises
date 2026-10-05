@@ -151,10 +151,15 @@ async function loadHomeData() {
     if (catStrip) {
       catStrip.innerHTML = categories.map((cat, i) => {
         const count = products.filter(p => p.categoryId === cat.id).length;
+        const isImageIcon = typeof cat.icon === 'string' && /\.(png|jpe?g|svg|webp|gif|avif|bmp)$/i.test(cat.icon);
+        const iconMarkup = isImageIcon
+          ? `<img src="${cat.icon}" alt="${cat.name}" loading="lazy">`
+          : `<span aria-hidden="true">${cat.icon || '⚡'}</span>`;
+
         return `
           <a href="products.html?category=${cat.id}" class="category-card" data-aos="fade-up" data-aos-delay="${i * 100}">
             <div class="category-card-content">
-              <div class="cat-icon-wrap">${cat.icon}</div>
+              <div class="cat-icon-wrap">${iconMarkup}</div>
               <h3>${cat.name}</h3>
               <p>${cat.description}</p>
               <span class="cat-count">${count} Products</span>
@@ -223,7 +228,7 @@ function buildCard(product, categories, aosDelay = 0) {
         <span class="product-moq">✓ MOQ: ${esc(product.moq)}</span>
         <div class="card-actions">
           <a href="mailto:enterprisestoshi@gmail.com?subject=${encodeURIComponent(product.enquirySubject)}" class="btn btn-primary">Send Enquiry</a>
-          <a href="https://wa.me/919897794104?text=${waText}" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://wa.me/918899009910?text=${waText}" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
     </div>`;

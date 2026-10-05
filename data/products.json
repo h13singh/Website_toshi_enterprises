@@ -3,14 +3,14 @@
     {
       "id": "electrical",
       "name": "Electrical Accessories",
-      "icon": "⚡",
+      "icon": "assets/images/products/Electrical_appliances.jpg",
       "description": "ISI-certified electrical components for residential, commercial and industrial use",
       "color": "#1A3A6B"
     },
     {
       "id": "pet-household",
       "name": "PET Household Products",
-      "icon": "🍶",
+      "icon": "assets/images/products/pet_products.jpg",
       "description": "Food-grade BPA-free PET bottles, containers and household products",
       "color": "#F5A623"
     }
@@ -114,127 +114,6 @@
       "image": "assets/images/products/WhatsApp Image 2026-09-16 at 10.18.52 PM.jpeg",
       "moq": "1000 pcs",
       "enquirySubject": "Enquiry: Electrical Accessories Assorted Pack"
-    },
-    {
-      "id": "elec-010",
-      "categoryId": "electrical",
-      "name": "MCB — Single Pole 6A",
-      "shortSpec": "6A, 240V, C-curve, 6kA breaking capacity, ISI marked",
-      "description": "Miniature Circuit Breaker for overcurrent and short-circuit protection in residential circuits.",
-      "tags": ["MCB", "circuit breaker", "6A", "protection", "electrical"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: MCB Single Pole 6A"
-    },
-    {
-      "id": "elec-011",
-      "categoryId": "electrical",
-      "name": "MCB — Single Pole 10A",
-      "shortSpec": "10A, 240V, C-curve, 6kA breaking capacity, ISI marked",
-      "description": "Standard single pole MCB for residential and commercial panel boards. ISI/BIS certified.",
-      "tags": ["MCB", "circuit breaker", "10A", "protection", "electrical"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: MCB Single Pole 10A"
-    },
-    {
-      "id": "elec-012",
-      "categoryId": "electrical",
-      "name": "MCB — Single Pole 16A",
-      "shortSpec": "16A, 240V, C-curve, 6kA breaking capacity, ISI marked",
-      "description": "16A single pole MCB for heavy load residential circuits. Meets IS/IEC 60898-1.",
-      "tags": ["MCB", "circuit breaker", "16A", "protection", "electrical"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: MCB Single Pole 16A"
-    },
-    {
-      "id": "elec-013",
-      "categoryId": "electrical",
-      "name": "3-Pin Socket — 16A Heavy Duty",
-      "shortSpec": "16A, 240V, ISI marked, brass contacts, ivory",
-      "description": "Heavy-duty 3-pin power socket for large appliances. Brass contacts, reinforced body.",
-      "tags": ["socket", "3-pin", "16A", "heavy duty", "outlet", "electrical"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: 3-Pin Socket 16A Heavy Duty"
-    },
-    {
-      "id": "elec-014",
-      "categoryId": "electrical",
-      "name": "2-Pin Socket — 6A",
-      "shortSpec": "6A, 240V, ISI marked, white finish",
-      "description": "Standard 2-pin socket for light appliances. ISI marked and BIS compliant.",
-      "tags": ["socket", "2-pin", "6A", "outlet", "electrical"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: 2-Pin Socket 6A"
-    },
-    {
-      "id": "elec-015",
-      "categoryId": "electrical",
-      "name": "PVC Conduit Pipe — 20mm",
-      "shortSpec": "20mm dia, 3m length, rigid PVC, ISI marked",
-      "description": "Rigid PVC electrical conduit for concealed and surface wiring protection. ISI marked.",
-      "tags": ["conduit", "pipe", "PVC", "wiring", "20mm"],
-      "image": "",
-      "moq": "100 pcs",
-      "enquirySubject": "Enquiry: PVC Conduit Pipe 20mm"
-    },
-    {
-      "id": "elec-016",
-      "categoryId": "electrical",
-      "name": "PVC Conduit Pipe — 25mm",
-      "shortSpec": "25mm dia, 3m length, rigid PVC, ISI marked",
-      "description": "Heavy-gauge rigid PVC conduit for commercial wiring. ISI certified.",
-      "tags": ["conduit", "pipe", "PVC", "wiring", "25mm"],
-      "image": "",
-      "moq": "100 pcs",
-      "enquirySubject": "Enquiry: PVC Conduit Pipe 25mm"
-    },
-    {
-      "id": "elec-017",
-      "categoryId": "electrical",
-      "name": "Junction Box — 4×4 inch",
-      "shortSpec": "4×4 inch, PVC, IP44 rated, surface mount",
-      "description": "Weatherproof PVC junction box for electrical connections and wire management.",
-      "tags": ["junction box", "enclosure", "PVC", "weatherproof", "4x4"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: Junction Box 4x4"
-    },
-    {
-      "id": "elec-018",
-      "categoryId": "electrical",
-      "name": "Junction Box — 6×6 inch",
-      "shortSpec": "6×6 inch, PVC, IP44 rated, surface mount",
-      "description": "Large-format weatherproof PVC junction box for commercial wiring installations.",
-      "tags": ["junction box", "enclosure", "PVC", "weatherproof", "6x6"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: Junction Box 6x6"
-    },
-    {
-      "id": "elec-019",
-      "categoryId": "electrical",
-      "name": "Ceiling Rose — Surface Mount",
-      "shortSpec": "Surface mount, 6A, 240V, PVC, white",
-      "description": "Surface-mount ceiling rose for pendant light fittings. PVC body with brass contacts.",
-      "tags": ["ceiling rose", "pendant", "light fitting", "PVC", "electrical"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: Ceiling Rose Surface Mount"
-    },
-    {
-      "id": "elec-020",
-      "categoryId": "electrical",
-      "name": "Extension Board — 4 Socket, 2m",
-      "shortSpec": "4 outlets, 2m cord, master switch, surge protected",
-      "description": "Multi-socket extension board with master switch and surge protection for home and office.",
-      "tags": ["extension board", "power strip", "4 socket", "surge protection"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: Extension Board 4 Socket"
     },
     {
       "id": "pet-001",

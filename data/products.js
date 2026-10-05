@@ -4,14 +4,14 @@ window.TOSHI_DATA = {
     {
       "id": "electrical",
       "name": "Electrical Accessories",
-      "icon": "⚡",
+      "icon": "assets/images/products/Electrical_appliances.jpg",
       "description": "ISI-certified electrical components for residential, commercial and industrial use",
       "color": "#1A3A6B"
     },
     {
       "id": "pet-household",
       "name": "PET Household Products",
-      "icon": "🍶",
+      "icon": "assets/images/products/pet_products.jpg",
       "description": "Food-grade BPA-free PET bottles, containers and household products",
       "color": "#F5A623"
     }
@@ -116,192 +116,38 @@ window.TOSHI_DATA = {
       "moq": "1000 pcs",
       "enquirySubject": "Enquiry: Electrical Accessories Assorted Pack"
     },
-    {
-      "id": "elec-010",
-      "categoryId": "electrical",
-      "name": "MCB — Single Pole 6A",
-      "shortSpec": "6A, 240V, C-curve, 6kA breaking capacity, ISI marked",
-      "description": "Miniature Circuit Breaker for overcurrent and short-circuit protection in residential circuits.",
-      "tags": ["MCB", "circuit breaker", "6A", "protection", "electrical"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: MCB Single Pole 6A"
-    },
-    {
-      "id": "elec-011",
-      "categoryId": "electrical",
-      "name": "MCB — Single Pole 10A",
-      "shortSpec": "10A, 240V, C-curve, 6kA breaking capacity, ISI marked",
-      "description": "Standard single pole MCB for residential and commercial panel boards. ISI/BIS certified.",
-      "tags": ["MCB", "circuit breaker", "10A", "protection", "electrical"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: MCB Single Pole 10A"
-    },
-    {
-      "id": "elec-012",
-      "categoryId": "electrical",
-      "name": "MCB — Single Pole 16A",
-      "shortSpec": "16A, 240V, C-curve, 6kA breaking capacity, ISI marked",
-      "description": "16A single pole MCB for heavy load residential circuits. Meets IS/IEC 60898-1.",
-      "tags": ["MCB", "circuit breaker", "16A", "protection", "electrical"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: MCB Single Pole 16A"
-    },
-    {
-      "id": "elec-013",
-      "categoryId": "electrical",
-      "name": "3-Pin Socket — 16A Heavy Duty",
-      "shortSpec": "16A, 240V, ISI marked, brass contacts, ivory",
-      "description": "Heavy-duty 3-pin power socket for large appliances. Brass contacts, reinforced body.",
-      "tags": ["socket", "3-pin", "16A", "heavy duty", "outlet", "electrical"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: 3-Pin Socket 16A Heavy Duty"
-    },
-    {
-      "id": "elec-014",
-      "categoryId": "electrical",
-      "name": "2-Pin Socket — 6A",
-      "shortSpec": "6A, 240V, ISI marked, white finish",
-      "description": "Standard 2-pin socket for light appliances. ISI marked and BIS compliant.",
-      "tags": ["socket", "2-pin", "6A", "outlet", "electrical"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: 2-Pin Socket 6A"
-    },
-    {
-      "id": "elec-015",
-      "categoryId": "electrical",
-      "name": "PVC Conduit Pipe — 20mm",
-      "shortSpec": "20mm dia, 3m length, rigid PVC, ISI marked",
-      "description": "Rigid PVC electrical conduit for concealed and surface wiring protection. ISI marked.",
-      "tags": ["conduit", "pipe", "PVC", "wiring", "20mm"],
-      "image": "",
-      "moq": "100 pcs",
-      "enquirySubject": "Enquiry: PVC Conduit Pipe 20mm"
-    },
-    {
-      "id": "elec-016",
-      "categoryId": "electrical",
-      "name": "PVC Conduit Pipe — 25mm",
-      "shortSpec": "25mm dia, 3m length, rigid PVC, ISI marked",
-      "description": "Heavy-gauge rigid PVC conduit for commercial wiring. ISI certified.",
-      "tags": ["conduit", "pipe", "PVC", "wiring", "25mm"],
-      "image": "",
-      "moq": "100 pcs",
-      "enquirySubject": "Enquiry: PVC Conduit Pipe 25mm"
-    },
-    {
-      "id": "elec-017",
-      "categoryId": "electrical",
-      "name": "Junction Box — 4×4 inch",
-      "shortSpec": "4×4 inch, PVC, IP44 rated, surface mount",
-      "description": "Weatherproof PVC junction box for electrical connections and wire management.",
-      "tags": ["junction box", "enclosure", "PVC", "weatherproof", "4x4"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: Junction Box 4x4"
-    },
-    {
-      "id": "elec-018",
-      "categoryId": "electrical",
-      "name": "Junction Box — 6×6 inch",
-      "shortSpec": "6×6 inch, PVC, IP44 rated, surface mount",
-      "description": "Large-format weatherproof PVC junction box for commercial wiring installations.",
-      "tags": ["junction box", "enclosure", "PVC", "weatherproof", "6x6"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: Junction Box 6x6"
-    },
-    {
-      "id": "elec-019",
-      "categoryId": "electrical",
-      "name": "Ceiling Rose — Surface Mount",
-      "shortSpec": "Surface mount, 6A, 240V, PVC, white",
-      "description": "Surface-mount ceiling rose for pendant light fittings. PVC body with brass contacts.",
-      "tags": ["ceiling rose", "pendant", "light fitting", "PVC", "electrical"],
-      "image": "",
-      "moq": "500 pcs",
-      "enquirySubject": "Enquiry: Ceiling Rose Surface Mount"
-    },
-    {
-      "id": "elec-020",
-      "categoryId": "electrical",
-      "name": "Extension Board — 4 Socket, 2m",
-      "shortSpec": "4 outlets, 2m cord, master switch, surge protected",
-      "description": "Multi-socket extension board with master switch and surge protection for home and office.",
-      "tags": ["extension board", "power strip", "4 socket", "surge protection"],
-      "image": "",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: Extension Board 4 Socket"
-    },
-    {
-      "id": "pet-001",
+        {
+      "id": "pet-015",
       "categoryId": "pet-household",
-      "name": "PET Bottle — 900ml Slim",
-      "shortSpec": "900ml, food-grade PET, BPA-free, slim design",
-      "description": "Slim-profile 900ml PET bottle for water, juice and beverages. Crystal clear food-grade PET.",
-      "tags": ["bottle", "900ml", "PET", "slim", "water", "food grade"],
-      "image": "https://images.unsplash.com/photo-1616118133712-8c947f7b822c?w=600&q=80",
-      "moq": "1000 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 900ml Slim"
-    },
-    {
-      "id": "pet-002",
-      "categoryId": "pet-household",
-      "name": "PET Bottle — 900ml Wide Mouth",
-      "shortSpec": "900ml, wide mouth, food-grade PET, BPA-free",
-      "description": "Wide-mouth 900ml PET bottle ideal for juices, smoothies and health drinks. Easy to fill and clean.",
-      "tags": ["bottle", "900ml", "wide mouth", "PET", "juice", "food grade"],
-      "image": "https://images.unsplash.com/photo-1616118132534-381148898bb4?w=600&q=80",
-      "moq": "1000 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 900ml Wide Mouth"
-    },
-    {
-      "id": "pet-003",
-      "categoryId": "pet-household",
-      "name": "PET Bottle — 1 Litre Classic",
-      "shortSpec": "1000ml, food-grade PET, BPA-free, standard neck",
-      "description": "Classic 1-litre PET bottle for water and beverages. Industry-standard neck for compatibility with most caps.",
-      "tags": ["bottle", "1 litre", "1L", "PET", "water", "classic", "food grade"],
-      "image": "https://images.unsplash.com/photo-1616118133103-baf54a4790c6?w=600&q=80",
-      "moq": "1000 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 1L Classic"
-    },
-    {
-      "id": "pet-004",
-      "categoryId": "pet-household",
-      "name": "PET Bottle — 1 Litre Squarish",
-      "shortSpec": "1000ml, square profile, food-grade PET, BPA-free",
-      "description": "Square-profile 1L PET bottle for efficient shelf stacking. Popular for edible oil and specialty beverages.",
-      "tags": ["bottle", "1 litre", "1L", "square", "PET", "oil", "food grade"],
-      "image": "https://images.unsplash.com/photo-1609915437016-85693e56470f?w=600&q=80",
-      "moq": "1000 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 1L Squarish"
-    },
-    {
-      "id": "pet-005",
-      "categoryId": "pet-household",
-      "name": "PET Bottle — 2 Litre Standard",
-      "shortSpec": "2000ml, food-grade PET, BPA-free, handle grip",
-      "description": "Standard 2-litre PET bottle with ergonomic waist grip. Ideal for water, juice and cold drinks.",
-      "tags": ["bottle", "2 litre", "2L", "PET", "water", "large", "food grade"],
-      "image": "https://images.unsplash.com/photo-1616118133712-8c947f7b822c?w=600&q=80",
+      "name": "Fridge Water Bottle — 750ml, 1L & 2L",
+      "shortSpec": "750ml, 1L and 2L size options, handled bottle design",
+      "description": "Handled fridge water bottle offered in 750ml, 1-litre and 2-litre sizes.",
+      "tags": ["fridge bottle", "water bottle", "750ml", "1 litre", "1L", "2 litre", "2L", "PET"],
+      "image": "assets/images/products/2 ltr 1 ltr 750 mL fridge water bottle.jpeg",
       "moq": "500 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 2L Standard"
+      "enquirySubject": "Enquiry: Fridge Water Bottle — Multiple Sizes"
     },
     {
-      "id": "pet-006",
+      "id": "pet-016",
       "categoryId": "pet-household",
-      "name": "PET Bottle — 2 Litre Wide",
-      "shortSpec": "2000ml, wide-body, food-grade PET, BPA-free",
-      "description": "Wide-body 2-litre PET bottle for cooking oil, pickles and storage. Shorter and more stable than standard 2L.",
-      "tags": ["bottle", "2 litre", "2L", "wide", "oil", "PET", "food grade"],
-      "image": "https://images.unsplash.com/photo-1616118132534-381148898bb4?w=600&q=80",
+      "name": "Fridge Bottle — 2 Litre",
+      "shortSpec": "2L, handled cap, black finish",
+      "description": "Large 2-litre fridge bottle with an integrated carry handle.",
+      "tags": ["fridge bottle", "water bottle", "2 litre", "2L", "handled bottle", "PET"],
+      "image": "assets/images/products/2 Liter Fridge Bottle.jpeg",
       "moq": "500 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 2L Wide"
+      "enquirySubject": "Enquiry: Fridge Bottle 2 Litre"
+    },
+    {
+      "id": "pet-017",
+      "categoryId": "pet-household",
+      "name": "Fridge Water Bottle — 750ml",
+      "shortSpec": "750ml, compact bottle with handled cap",
+      "description": "Compact 750ml fridge water bottle with an integrated carry handle.",
+      "tags": ["fridge bottle", "water bottle", "750ml", "handled bottle", "PET"],
+      "image": "assets/images/products/750 ml fridge waterbottle.jpeg",
+      "moq": "500 pcs",
+      "enquirySubject": "Enquiry: Fridge Water Bottle 750ml"
     },
     {
       "id": "pet-007",
@@ -326,17 +172,6 @@ window.TOSHI_DATA = {
       "enquirySubject": "Enquiry: PET Container 1L"
     },
     {
-      "id": "pet-009",
-      "categoryId": "pet-household",
-      "name": "Water Jug — 5 Litre",
-      "shortSpec": "5L, food-grade PET, ergonomic handle, wide mouth",
-      "description": "Large-capacity 5-litre PET water jug with ergonomic grip handle. Wide mouth for ice and easy cleaning.",
-      "tags": ["jug", "5 litre", "water", "PET", "household"],
-      "image": "https://images.unsplash.com/photo-1664787020182-7c17ea808ae0?w=600&q=80",
-      "moq": "200 pcs",
-      "enquirySubject": "Enquiry: Water Jug 5L"
-    },
-    {
       "id": "pet-010",
       "categoryId": "pet-household",
       "name": "Liquid Dispenser Bottle — 300ml",
@@ -346,28 +181,6 @@ window.TOSHI_DATA = {
       "image": "https://images.unsplash.com/photo-1694101395750-e153c0424b4a?w=600&q=80",
       "moq": "500 pcs",
       "enquirySubject": "Enquiry: Dispenser Bottle 300ml"
-    },
-    {
-      "id": "pet-011",
-      "categoryId": "pet-household",
-      "name": "PET Bottle — 500ml",
-      "shortSpec": "500ml, food-grade PET, BPA-free, compact",
-      "description": "Compact 500ml PET bottle for water, juices and health drinks. Lightweight and recyclable.",
-      "tags": ["bottle", "500ml", "PET", "water", "compact", "food grade"],
-      "image": "https://images.unsplash.com/photo-1616118132534-381148898bb4?w=600&q=80",
-      "moq": "1000 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 500ml"
-    },
-    {
-      "id": "pet-012",
-      "categoryId": "pet-household",
-      "name": "PET Bottle — 500ml with Green Cap",
-      "shortSpec": "500ml, green snap cap, food-grade PET, BPA-free",
-      "description": "500ml PET bottle with distinctive green snap cap. Ideal for flavoured water and herbal drinks branding.",
-      "tags": ["bottle", "500ml", "green cap", "PET", "water", "food grade"],
-      "image": "https://images.unsplash.com/photo-1616118133103-baf54a4790c6?w=600&q=80",
-      "moq": "1000 pcs",
-      "enquirySubject": "Enquiry: PET Bottle 500ml Green Cap"
     },
     {
       "id": "pet-013",
@@ -390,17 +203,7 @@ window.TOSHI_DATA = {
       "image": "https://images.unsplash.com/photo-1664787020182-7c17ea808ae0?w=600&q=80",
       "moq": "500 pcs",
       "enquirySubject": "Enquiry: PET Canister 2L"
-    },
-    {
-      "id": "pet-015",
-      "categoryId": "pet-household",
-      "name": "PET Square Container — 250ml",
-      "shortSpec": "250ml, square, food-grade PET, snap lid",
-      "description": "Compact square 250ml PET container for spices, condiments and small portion storage.",
-      "tags": ["container", "250ml", "square", "spice", "condiment", "PET", "food grade"],
-      "image": "https://images.unsplash.com/photo-1783099780097-80df72615969?w=600&q=80",
-      "moq": "1000 pcs",
-      "enquirySubject": "Enquiry: PET Square Container 250ml"
     }
+
   ]
 };

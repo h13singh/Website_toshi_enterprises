@@ -39,9 +39,13 @@ function renderFilterTabs() {
   const container = document.getElementById('filter-tabs');
   if (!container) return;
   const allTab  = `<button class="filter-tab active" data-cat="all">All Products</button>`;
-  const catTabs = allCategories.map(cat =>
-    `<button class="filter-tab" data-cat="${cat.id}">${cat.icon} ${cat.name}</button>`
-  ).join('');
+  const catTabs = allCategories.map(cat => {
+    const isImageIcon = typeof cat.icon === 'string' && /\.(png|jpe?g|svg|webp|gif|avif|bmp)$/i.test(cat.icon);
+    const iconMarkup = isImageIcon
+      ? `<img class="filter-tab-icon" src="${cat.icon}" alt="" loading="lazy">`
+      : cat.icon || '';
+    return `<button class="filter-tab" data-cat="${cat.id}">${iconMarkup} ${cat.name}</button>`;
+  }).join('');
   container.innerHTML = allTab + catTabs;
   container.addEventListener('click', e => {
     const tab = e.target.closest('.filter-tab');
@@ -145,7 +149,7 @@ function buildProductCard(product, index = 0) {
         <span class="product-moq">✓ MOQ: ${escHtml(product.moq)}</span>
         <div class="card-actions">
           <a href="mailto:enterprisestoshi@gmail.com?subject=${encodeURIComponent(product.enquirySubject)}" class="btn btn-primary">Send Enquiry</a>
-          <a href="https://wa.me/919897794104?text=${waText}" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp</a>
+          <a href="https://wa.me/918899009910?text=${waText}" class="btn btn-whatsapp" target="_blank" rel="noopener">WhatsApp</a>
         </div>
       </div>
     </div>`;
